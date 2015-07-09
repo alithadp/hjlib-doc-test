@@ -18,6 +18,7 @@ body {
   font-family: Lato;
   color: #fff;
   background: #B2B2B2;
+  width: 100%;
 }
 
 section {
@@ -30,7 +31,7 @@ h1 {
   font-weight: normal;
   text-transform: uppercase;
   float: left;
-  margin: 20px 0 100px 10px;
+  margin: 0 0 100px 10px;
 }
 
 h1 span {
@@ -42,7 +43,7 @@ h1 span {
 .tabs {
   width: auto;
   height: auto;
-  top: 30px;
+  top: 10px;
   bottom: 0;
   left: 20px;
   right: 20px;
@@ -95,7 +96,6 @@ h1 span {
   display: none;
   overflow: hidden;
   width: 100%;
-  height: auto;
   font-size: 15px;
   line-height: 25px;
   padding: 25px;
@@ -115,13 +115,6 @@ h1 span {
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
 }
-
-.footer {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-  font-size: 10px;
-} 
 
 .accordion { 
      width: 100%;
@@ -183,3 +176,9 @@ h1 span {
       display: block;
 }
 
+.footer {
+  position: absolute;
+  font-size: 10px;
+  bottom: 1px;
+  left: 30px;
+} 
